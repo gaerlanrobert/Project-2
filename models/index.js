@@ -4,8 +4,16 @@ const path = require('path');
 const Sequelize = require('sequelize');
 
 const basename = path.basename(module.filename);
-const env = process.env.NODE_ENV || 'development';
+console.log(`basename: ${basename}`);
+const env = process.env.NODE_ENV || 'production';
+console.log(`env: ${env}`);
+// eslint-disable-next-line import/no-dynamic-require
 const config = require(`${__dirname}/../config/config.js`)[env];
+console.log(`config.database: ${config.database}`);
+console.log(`config.username: ${config.username}`);
+console.log(`config.password: ${config.password}`);
+console.log(`config.database: ${config.database}`);
+
 const db = {};
 // let sequelize;
 

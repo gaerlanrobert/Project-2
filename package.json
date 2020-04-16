@@ -25,7 +25,9 @@
     "start": "node server.js"
   },
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gaerlanrobert/Project-2.git"
