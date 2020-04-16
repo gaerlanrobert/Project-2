@@ -24,8 +24,9 @@ body{
 .center{
     display:block;
     margin-left:auto;
+    padding-bottom:0px;
     margin-right:auto;
-    width:25%
+    width:35%
 }
 
 .searchNews{
