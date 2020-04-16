@@ -1,4 +1,6 @@
 // Requiring path to so we can use relative routes to our HTML files
+require('dotenv').config();
+
 const http = require('http');
 const express = require('express');
 const session = require('express-session');
