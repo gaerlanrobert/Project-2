@@ -27,7 +27,7 @@ AS A person interested in current events, I WANT to be able to talk about curren
   * [Socket.io](https://socket.io/)
   * [Skeleton](http://getskeleton.com/) responsive framework (possibly)
   * [ESLint](https://eslint.org/)
-  * [Firebase](https://firebase.google.com/) or [Passport](http://www.passportjs.org/) for authentication
+  * [Passport](http://www.passportjs.org/) for authentication
   * [News API](https://newsapi.org/)
 
 #### Breakdown of tasks and roles
