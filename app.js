@@ -15,8 +15,6 @@ const server = http.createServer(app);
 const io = require('socket.io').listen(server);
 
 const PORT = process.env.PORT || 80;
-// eslint-disable-next-line import/no-unresolved
-const db = require('./models');
 
 // Middleware
 app.use(express.urlencoded({ extended: true }));
